@@ -11,7 +11,7 @@ The output will be a DOT-graph, with:
 
 The problem this implementation solves for me is when the input tree has not too complex hierachy but with lots of leaf-nodes.
 
-The original graph that Graphviz aligns the leaves horizontally and is too wide to be overviewable. But if I instead align all leaf nodes vertically, the final graph ends up taking a lot less horizontal width.
+The original graph that Graphviz creates aligns the leaves horizontally and is too wide to be overviewable. But if I instead align all leaf nodes vertically, the final graph ends up taking a lot less horizontal width.
 
 I found no default option on how to accomplish this using only the graphviz options for DOT-trees.
 
