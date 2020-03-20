@@ -1,4 +1,7 @@
 # Vertical DOT Leaves
+[![Build Status](https://travis-ci.com/ostering/verticalDotLeaves.svg?branch=master)](https://travis-ci.com/ostering/verticalDotLeaves)
+[![Coverage Status](https://coveralls.io/repos/github/ostering/verticalDotLeaves/badge.svg?branch=master)](https://coveralls.io/github/ostering/verticalDotLeaves?branch=master)
+
 A python implementation that takes an `anytree Node` (tree) as input and converts it to a **graphviz** (DOT) tree with all leaf-nodes aligned vertically.
 ```python
 dotGraph = verticalDotLeaves.DotGraph(tree)
